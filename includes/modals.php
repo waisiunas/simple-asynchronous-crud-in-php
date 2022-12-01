@@ -74,10 +74,12 @@
                 <div class="text-danger" id="error-delete"></div>
                 <div class="text-success" id="success-delete"></div>
                 <form action="" method="POST" id="delete-user-form">
+                    <div>Are your sure you want to delete this?</div>
                     <div>
                         <input type="submit" value="Delete User" class="btn btn-danger" name="submit-delete">
                     </div>
                 </form>
+
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
